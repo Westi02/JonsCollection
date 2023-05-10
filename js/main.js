@@ -32,10 +32,12 @@ function buyPack(event) {
 const imagePaths = [
     "res/Jons_die_Dampflok.png", 
     "res/texas_jons.png",
-    "res/wombatjons.jpg" 
+    "res/wombatjons.jpg",
+    "res/kommunisten_jons.png",
+    "res/lyrikJons.png"
 ];
 
-const probabilities = [0.5, 0.3, 0.2]; 
+const probabilities = [0.5, 0.2, 0.02, 0.2, 0.08]; 
 
 function openPack() {
     // Generate random number between 0 and 1
