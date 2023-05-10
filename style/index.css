@@ -51,7 +51,7 @@ body {
       text-align: center;
   }
 
-.cards ul li {
+.cards div ul li {
     width: 33.3%;
     float: left;
     margin-bottom: 20px;
