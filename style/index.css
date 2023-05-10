@@ -1,1 +1,52 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 1.5rem;
+  }
+  
+  header h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .coins, .packs, .cards {
+    margin-bottom: 2rem;
+  }
+  
+  .pack {
+    display: inline-block;
+    margin: 0 1rem;
+    text-align: center;
+  }
+  
+  .buy-pack {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+  }
+  
+  .buy-pack:hover {
+    background-color: #45a049;
+  }
+  .packs {
+      text-align: center;
+  }

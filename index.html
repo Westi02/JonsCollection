@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/index.css">
+  <title>Jons Trading Cards</title>
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <header>
+    <h1>Jons Trading Cards</h1>
+  </header>
 
+  <main>
+    <section class="coins">
+      <h2>Your Coins: <span id="coin-count">0</span></h2>
+      <button id="buy-coins">Buy Coins</button>
+    </section>
+
+    <section class="packs">
+      <h2>Trading Card Packs</h2>
+      <div class="pack" data-cost="10">
+        <img src="res/card_pack.png" alt="Pack Image">
+        <p>Cost: 10 coins</p>
+        <button class="buy-pack">Buy Pack</button>
+      </div>
+    </section>
+
+    <section class="cards">
+      <h2>Your Cards</h2>
+      <div id="card-collection"></div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
