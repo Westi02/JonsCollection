@@ -50,3 +50,14 @@ body {
   .packs {
       text-align: center;
   }
+
+.cards ul li {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.cards img {
+    width: 280px;
+    height: 170px;
+    border-radius: 5px;
