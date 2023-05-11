@@ -34,7 +34,7 @@ const imagePaths = [
     "res/texas_jons.png",
     "res/wombatjons.jpg",
     "res/kommunisten_jons.png",
-    "res/lyrikJons.png"
+    "res/lyrikJons.png",
     "res/rothschild_jons_legendary.png"
 ];
 
