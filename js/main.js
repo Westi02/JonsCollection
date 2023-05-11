@@ -30,15 +30,15 @@ function buyPack(event) {
 }
 
 const imagePaths = [
-    "res/Jons_die_Dampflok.png", 
-    "res/texas_jons.png",
-    "res/wombatjons.jpg",
-    "res/kommunisten_jons.png",
-    "res/lyrikJons.png",
-    "res/rothschild_jons_legendary.png"
+    "res/Jons_die_Dampflok.png",        //normal
+    "res/texas_jons.png",               //normal
+    "res/lyrikJons.png",        	    //selten
+    "res/kommunisten_jons.png",         //selten
+    "res/wombatjons.jpg",               //legendär
+    "res/rothschild_jons_legendary.png" //legendär
 ];
 
-const probabilities = [0.42, 0.2, 0.08, 0.2, 0.08, 0.02]; 
+const probabilities = [0.3, 0.3, 0.15, 0.15, 0.05, 0.05]; 
 
 function openPack() {
     // Generate random number between 0 and 1
