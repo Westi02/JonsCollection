@@ -51,7 +51,7 @@ body {
       text-align: center;
   }
 .cards img {
-    width: 280px;
-    height: 170px;
+    width: 170px;
+    height: 280px;
     border-radius: 5px;
 }
